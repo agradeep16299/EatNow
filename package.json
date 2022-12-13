@@ -9,7 +9,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":" npm install && cd ./frontend && npm install && npm run build",
-    "start":"node backend/index.js"
+    "start":"node index.js"
   },
   "author": "raja",
   "license": "ISC",
