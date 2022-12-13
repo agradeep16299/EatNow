@@ -8,7 +8,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "build":" npm install && cd ./frontend && npm install && npm run build",
+    "start":"node backend/index.js"
   },
   "author": "raja",
   "license": "ISC",
